@@ -1,0 +1,87 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+header p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* Image section */
+.dish-image {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.dish-image img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Content sections */
+.ingredients, .steps {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #e74c3c;
+  margin-bottom: 15px;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 40px;
+  color: #2c3e50;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .dish-image img {
+    max-width: 100%;
+  }
+
+  body {
+    padding: 10px;
+  }
+}
